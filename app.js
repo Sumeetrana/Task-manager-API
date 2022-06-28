@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const taskRoutes = require("./routes/tasks");
 
-const port = 5000;
+const port = 5001;
 
 // middleware
 app.use(express.json())
